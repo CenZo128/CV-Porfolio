@@ -1,0 +1,33 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+p {
+	font-family: 'Merriweather', serif;
+	font-size: 14px;
+}
+@media only screen and (max-width: 767px) {
+    #frontpage {
+        padding: 75px 0 125px;
+    }
+}
+
+#frontpage {
+	background: url("../images/japanwallpaper.jpg");
+	background-size: cover;
+	padding: 225px 0 275px;
+}
+.interval {
+	overflow: hidden;
+	text-align: right;
+}
+.interval1 {
+	float: left;
+	margin-left: 100px;
+}
+.interval2 {
+	float: right;
+	
+}
+ .whitefont {
+ 	color: #ffffff;
+ }
