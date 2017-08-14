@@ -1,9 +1,12 @@
 body {
 	font-family: 'Open Sans', sans-serif;
+	color: #2a2b2c;
 }
 p {
-	font-family: 'Merriweather', serif;
+	/*font-family: 'Merriweather', serif;*/
 	font-size: 14px;
+	font-weight: 300;
+	line-height: 25px;
 }
 @media only screen and (max-width: 767px) {
     #frontpage {
@@ -12,22 +15,78 @@ p {
 }
 
 #frontpage {
-	background: url("../images/japanwallpaper.jpg");
+	background: url("../images/pexelroad.jpeg");
 	background-size: cover;
-	padding: 225px 0 275px;
+	height: 100vh;
+	align-items: center;
 }
-.interval {
-	overflow: hidden;
-	text-align: right;
+#frontpage img {
+	margin-top: 25%;
 }
-.interval1 {
-	float: left;
-	margin-left: 100px;
-}
-.interval2 {
-	float: right;
-	
-}
- .whitefont {
+
+.whitefont {
  	color: #ffffff;
+ }
+/*SKILLS*/
+#skills {
+	background: url("../images/pexelcity.jpeg") no-repeat fixed;
+	background-size: cover;
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+/*EXPERIENCE*/
+#experience h3 {
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-size: 20px;
+}
+.work {
+	border-bottom: thin solid #EEEEEE;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.info {
+	padding-top: 15px;
+	font-weight: 300;
+	text-transform: uppercase;
+	border-right: thin solid #EEEEEE;
+}
+.work-date {
+	overflow: hidden;
+	height: 30%;
+}
+ .wrapper {
+ 	float: right;
+	border-bottom: thin solid #EEEEEE;
+ 	
+ }
+ .wrapper-left {
+ 	text-align: center;
+ 	float: left;
+ 	margin-left: 5px;
+ 	margin-right: 5px;
+ }
+ .wrapper-right {
+ 	text-align: center;
+ 	float: right;
+ 	margin-left: 5px;
+ }
+ .work-month {
+ 	font-size: 12px;
+ }
+ .work-year {
+ 	font-size: 36px;
+ 	font-weight: 2000;
+ }
+ .work-place {
+ 	font-weight: 300;
+ 	font-size: 20px;
+ }
+ .work-position {
+ 	font-weight: 300;
+ 	font-size: 12px;
+ }
+ .work-info {
+ 	padding-left: 20px;
+ 	padding-right: 20px;
  }
